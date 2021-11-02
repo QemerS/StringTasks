@@ -20,25 +20,19 @@ namespace StringTasks
 
             #region Task3
             //Console.WriteLine("stringi daxil edin"); string str = Console.ReadLine();
-            //string[] array = str.Split();
-            //Array.Reverse(array);
             //Console.Write("The caracters of the string are:");
-            //for (int i = 0;i<array.Length; i++)
+            //for (int i = str.Length-1;i>=0; i--)
             //{
-            //    Console.Write(array[i]+" ");
+            //    Console.Write(" " + str[i] + " ");
             //}
             #endregion
 
             #region Task5
-            //Console.WriteLine("stringi daxil edin"); string str = Console.ReadLine();
-            //byte times = 0;
-           
-            
-            //while (str.Contains("the"))
-            //{
-            //    times++;
-            //    }
-            //Console.WriteLine("The frequency of the word 'the' is: "+times);
+            //Console.WriteLine("stringi daxil edin");
+            //string str = Console.ReadLine();
+            //string pattern = @"\bthe\b";
+            //Regex rg = new Regex(pattern,RegexOptions.IgnoreCase);
+            //Console.WriteLine("The frequency of the word 'the' is: "+rg.Matches(str).Count);
             #endregion
         }
     }
